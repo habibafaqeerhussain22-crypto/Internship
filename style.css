@@ -1,0 +1,122 @@
+/* General Body Styles */
+body {
+    background-color: #ffffff;
+    color: #212529;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Style */
+.navbar-white {
+    background-color: #ffffff !important;
+    border-bottom: 1px solid #eaeaea;
+}
+
+/* Main Container Box */
+.hero-container-box {
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 16px;
+    padding: 50px 30px;
+    margin-top: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+/* Badge Color */
+.badge-skyblue {
+    background-color: #00b4d8;
+    color: white;
+}
+
+/* Image Box Style */
+.image-box {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Style */
+.footer-section {
+    background-color: #f1f3f5;
+    border-top: 1px solid #dee2e6;
+    color: #495057;
+    padding: 40px 0 20px 0;
+    margin-top: 80px;
+}
+
+/* Official Logo Colors & Light Blue Theme */
+:root {
+    --logo-dark-blue: #002b5c;
+    --logo-skyblue: #00b4d8;
+}
+
+.btn-primary, .btn-danger {
+    background-color: var(--logo-skyblue) !important;
+    border-color: var(--logo-skyblue) !important;
+    color: #ffffff !important;
+}
+
+.btn-primary:hover, .btn-danger:hover {
+    background-color: #0096b4 !important;
+    border-color: #0096b4 !important;
+}
+
+.text-primary, .text-danger {
+    color: var(--logo-skyblue) !important;
+}
+
+.badge.bg-primary, .badge.bg-danger {
+    background-color: rgba(0, 180, 216, 0.15) !important;
+    color: var(--logo-skyblue) !important;
+}
+
+/* Package Section Container */
+.package-section {
+    background-color: #002b5c;
+}
+
+.package-container-box {
+    background: linear-gradient(135deg, #001d3d 0%, #002b5c 100%);
+    border-radius: 16px;
+    padding: 60px 30px;
+    margin-bottom: 50px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+    border-top: 4px solid var(--logo-skyblue);
+}
+
+/* Cards fully visible now without animation dependency */
+.package-card {
+    background: #ffffff;
+    border: 1px solid #90e0ef;
+    border-left: 4px solid var(--logo-skyblue);
+    color: #333333 !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.package-card h4 {
+    color: var(--logo-dark-blue) !important;
+}
+
+.package-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 180, 216, 0.3);
+}
+
+/* Footer Sky Blue Theme */
+.footer-skyblue {
+    background-color: var(--logo-dark-blue) !important;
+    color: #ffffff !important;
+}
+
+.footer-skyblue a {
+    color: #90e0ef !important;
+    text-decoration: none;
+}
+
+.footer-skyblue a:hover {
+    color: #ffffff !important;
+    text-decoration: underline;
+}
